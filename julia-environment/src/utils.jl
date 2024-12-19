@@ -123,7 +123,6 @@ end
 
 function base_dir()
    base_folder = dirname(dirname(Base.active_project()))
-   endswith(base_folder, "gibbs-race-mev") || error("please activate the gibbs-race-mev julia-environment")
    return base_folder
 end
 
